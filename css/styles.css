@@ -220,6 +220,7 @@ a {
 .benefits-card-rectangle {
     margin-bottom: 8px;
     padding: 24px 100px;
+    height: 112px;
     background: #f4f4fd;
     border: 1px solid #8e8f99;
     border-radius: 4px;
