@@ -272,7 +272,16 @@ a {
     border-radius: 50%;
     background-color: #4D5AE5;
     color: #fff;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.social-links .link:hover,
+.social-links .link:focus {
+    background-color: #404BBF;
+}
+
 
 
 .portfolio-section-title {
@@ -414,6 +423,14 @@ a {
     border-radius: 50%;
     background-color: #4D5AE5;
     color: #fff;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-icons .link:hover,
+.social-media-icons .link:focus {
+    background-color: #31D0AA;
 }
 
 
